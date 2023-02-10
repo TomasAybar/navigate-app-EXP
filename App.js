@@ -3,13 +3,13 @@ import * as React from 'react';
 // import { StatusBar } from 'expo-status-bar';
 // import { Text } from 'react-native';
 
-import { MainNavigator } from './src/navigator/MainNavigator';
+// import { MainNavigator } from './src/navigator/MainNavigator';
 import MainNavigation from './src/navigations/MainNavigation';
 
 export default function App() {
   return (
 
-    <MainNavigator /> // moda circularr
+    <MainNavigation /> // moda circularr
 
   );
 }

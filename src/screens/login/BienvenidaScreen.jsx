@@ -13,7 +13,7 @@ export const BienvenidaScreen = () => {
 			<TouchableOpacity>
 				<Button
 					title='Continuar'
-					onPress={() => navigator.navigate('TabMain')}
+					onPress={() => navigator.navigate('Tabs')}
 				/>
 			</TouchableOpacity>
 		</View>

@@ -5,7 +5,7 @@ import { style } from '../themes/appTheme'
 export const HomeScreen = () => {
 	return (
 		<View style={style.alinearCentro}>
-			<Text>BienvenidaScreen</Text>
+			<Text>HomeScreen</Text>
 		</View>
 	)
 }
