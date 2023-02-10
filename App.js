@@ -14,10 +14,12 @@ export default function App() {
 
 
     <MainNavigator />
+
   );
 }
 
 // <Navigation />
+// <NavigationContainer>
 // <NavigationContainer>
 {/* <StackNavigator /> */ }
 {/* <StackLogin /> */ }

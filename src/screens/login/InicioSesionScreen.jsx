@@ -4,7 +4,7 @@ import { Button, Text, View } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
 export const InicioSesionScreen = () => {
-	const navigation = useNavigation()
+	const navigator = useNavigation()
 
 	return (
 		<View>
@@ -12,14 +12,14 @@ export const InicioSesionScreen = () => {
 			<TouchableOpacity>
 				<Button
 					title='Registrarme'
-					onPress={() => alert('registrarme')}
+					onPress={() => navigator.navigate('RegistroNombreScreen')}
 				/>
 			</TouchableOpacity>
 
 			<TouchableOpacity>
 				<Button
 					title='Iniciar sesion - ir a registro'
-					onPress={() => navigation.navigate('RegistroNombreScreen')}
+					onPress={() => navigator.navigate('LoginScreen')}
 				/>
 			</TouchableOpacity>
 		</View>
