@@ -4,16 +4,17 @@ import * as React from 'react';
 // import { Text } from 'react-native';
 
 import { MainNavigator } from './src/navigator/MainNavigator';
+import MainNavigation from './src/navigations/MainNavigation';
 
 export default function App() {
   return (
 
-
-    <MainNavigator />
+    <MainNavigator /> // moda circularr
 
   );
 }
 
+// <MainNavigation /> // tuto youtube
 // <Navigation />
 // <NavigationContainer>
 // <NavigationContainer>
