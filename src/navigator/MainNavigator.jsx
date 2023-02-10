@@ -12,13 +12,13 @@ import { PerfilScreen } from '../screens/PerfilScreen'
 import { InicioSesionScreen } from '../screens/login/InicioSesionScreen'
 import { RegistroNombreScreen } from '../screens/login/RegistroNombreScreen'
 import { BienvenidaScreen } from '../screens/login/BienvenidaScreen'
-import { StackLogin } from './stacks/StackLogIn'
 import { LoginScreen } from '../screens/login/LoginScreen'
 
 const Tab = createBottomTabNavigator()
 
 const Stack = createNativeStackNavigator()
 
+// Tab home
 const TabMain = () => {
 	return (
 		<Tab.Navigator
@@ -37,6 +37,7 @@ const TabMain = () => {
 	)
 }
 
+// stack login
 export const MainNavigator = () => {
 	return (
 		<NavigationContainer>
